@@ -1,0 +1,16 @@
+#define in1 9 //name pin 9 as in1
+#define in2 10 // name pin 10 as in2
+void setup() {
+ pinMode(in1, OUTPUT);//making in1 OUTPUT
+ pinMode(in2, OUTPUT);//making in2 OUTPUT
+
+}
+
+void loop() {
+  digitalWrite(in1, HIGH);//setting in1 as HIGH
+  digitalWrite(in2, LOW);//setting in2 as LOW
+  delay(1000);//setting delay for 1 second
+  digitalWrite(in1, LOW);setting in1 as LOW
+  digitalWrite(in2, HIGH);setting in2 as HIGH
+  
+}
